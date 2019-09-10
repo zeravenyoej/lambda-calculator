@@ -1,4 +1,9 @@
 import React from "react";
+import { operators } from "../../../data.js";
+import { OperatorButton } from "./OperatorButton.js";
+
+const [operatorState, setOperatorState] = useState(operators);
+
 
 //import any components needed
 
@@ -14,3 +19,5 @@ const Operators = () => {
     </div>
   );
 };
+
+export default Operators;

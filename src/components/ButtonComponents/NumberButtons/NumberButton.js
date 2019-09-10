@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const NumberButton = () => {
   return (
     <>
@@ -7,3 +8,5 @@ const NumberButton = () => {
     </>
   );
 };
+
+export default NumberButton;

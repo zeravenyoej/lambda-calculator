@@ -1,4 +1,8 @@
 import React from "react";
+import { specials } from "../../../data.js";
+import { SpecialButton } from "./SpecialButton.js";
+
+const [specialState, setSpecialState] = useState(specials);
 
 //import any components needed
 
